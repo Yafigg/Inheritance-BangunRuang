@@ -13,8 +13,8 @@ public class LimasSegitiga extends Bangunruang {
         la = iU.nextDouble();
         System.out.print("Masukkan Nilai Tinggi Dari Limas : ");
         tLimas = iU.nextDouble();
-        double volume = 1/3 * la * tLimas;
-        System.out.println("Hasil Nya Adalah : " + volume);
+        double volume =  la * tLimas / 3;
+        System.out.println("Hasil Nya Adalah                 : " + volume);
         return volume;
     }
     
@@ -23,8 +23,8 @@ public class LimasSegitiga extends Bangunruang {
         la = iU.nextDouble();
         System.out.print("Masukkan Tinggi Limas          : ");
         t = iU.nextDouble();
-        double luasPermukaan = 1/2 * la * t;
-        System.out.println("Hasil Nya Adalah : " + luasPermukaan);
+        double luasPermukaan =  la * t / 2;
+        System.out.println("Hasil Nya Adalah               : " + luasPermukaan);
         return luasPermukaan;
     }
 }

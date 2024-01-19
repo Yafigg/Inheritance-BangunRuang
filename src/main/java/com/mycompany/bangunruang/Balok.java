@@ -9,24 +9,24 @@ public class Balok extends Bangunruang {
     double volume() {
         System.out.print("Masukkan Nilai Panjang : ");
         p = iU.nextDouble();
-        System.out.println("Masukkan Nilai Lebar : ");
+        System.out.print("Masukkan Nilai Lebar   : ");
         l = iU.nextDouble();
-        System.out.println("Masukkan Nilai Tinggi  : ");
+        System.out.print("Masukkan Nilai Tinggi  : ");
         t = iU.nextDouble();
         double volume = p * l * t;
-        System.out.println("Hasilnya Adalah : " + volume);
+        System.out.println("Hasilnya Adalah        : " + volume);
         return volume;
     }
     
     double luasPermukaan() {
         System.out.print("Masukkan Nilai Panjang : ");
         p = iU.nextDouble();
-        System.out.println("Masukkan Nilai Lebar : ");
+        System.out.print("Masukkan Nilai Lebar   : ");
         l = iU.nextDouble();
-        System.out.println("Masukkan Nilai Tinggi  : ");
+        System.out.print("Masukkan Nilai Tinggi  : ");
         t = iU.nextDouble();
         double luasPermukaan = 2 * (p * l + p * t + l * t);
-        System.out.println("Hasilnya Adalah : " + luasPermukaan);
+        System.out.println("Hasilnya Adalah        : " + luasPermukaan);
         return luasPermukaan;
     }
 }

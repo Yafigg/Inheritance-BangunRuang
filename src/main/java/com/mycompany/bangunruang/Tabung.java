@@ -14,7 +14,7 @@ public class Tabung extends Bangunruang {
         System.out.print("Masukkan Nilai Tinggi    :");
         t = iU.nextDouble();
         double volume = Math.PI * (r * r) * t;
-        System.out.println("Hasil Nya Adalah : " + volume);
+        System.out.println("Hasil Nya Adalah         : " + volume);
         return volume;
     }
 
@@ -24,7 +24,7 @@ public class Tabung extends Bangunruang {
         System.out.print("Masukkan Nilai Tinggi    :");
         t = iU.nextDouble();
         double luasPermukaan = 2 * Math.PI * r * t + 2 * Math.PI;
-        System.out.println("Hasil Nya Adalah : " + luasPermukaan);
+        System.out.println("Hasil Nya Adalah         : " + luasPermukaan);
         return luasPermukaan;
     }
 }

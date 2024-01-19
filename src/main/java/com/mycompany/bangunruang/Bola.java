@@ -9,7 +9,7 @@ public class Bola extends Bangunruang {
         System.out.print("Masukkan Nilai Jari-Jari : ");
         r = iU.nextDouble();
         double volume = 4/3 * Math.PI * r * r * r;
-        System.out.println("Hasil Nya Adalah : "+ volume);
+        System.out.print("Hasil Nya Adalah : "+ volume);
         return volume;
     }
     
@@ -18,7 +18,7 @@ public class Bola extends Bangunruang {
         System.out.print("Masukkan Nilai Jari-Jari : ");
         r = iU.nextDouble();
         double luas = 4 * Math.PI * r;
-        System.out.println("Hasil Nya Adalah : " + luas);
+        System.out.print("Hasil Nya Adalah : " + luas);
         return luas;
     }
 }
